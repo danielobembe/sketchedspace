@@ -1,0 +1,17 @@
+{
+  "name": "sketchedSpace",
+  "authors": [
+    "Daniel Obembe <ayo.obembe@gmail.com>"
+  ],
+  "description": "Site for SketchedSpace, a Seoul based curatorial firm.",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
