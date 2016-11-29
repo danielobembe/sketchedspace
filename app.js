@@ -4,6 +4,14 @@ var path = require('path')
 
 app.use(express.static(path.join(__dirname + '/public')));
 
+app.get('/test.html', function(req, res) {
+  res.sendFile(path.join(__dirname + '/test.html'));
+});
+app.get('/test_adapted.html', function(req, res) {
+  res.sendFile(path.join(__dirname + '/test_adapted.html'));
+});
+
+
 app.get('/', function(req, res) {
   res.sendFile(path.join(__dirname + '/concept.html'));
 });

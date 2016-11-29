@@ -1,0 +1,138 @@
+header {
+  position: fixed;
+  z-index: 1000;
+  top: 60px;
+  left: 60px;
+  line-height: 10px;
+  color: #666666; }
+  header a:hover {
+    color: #bbbbbb; }
+  header li {
+    margin-bottom: 15px;
+    height: 10px; }
+    header li a {
+      color: #888888; }
+    header li a.select {
+      color: #000000; }
+  header h1 a {
+    font-family: "DINNextRoundedLTW01-Reg";
+    color: #000000;
+    font-size: 16px;
+    text-align: center; }
+  header h1 a:hover {
+    color: #666666; }
+  header div#global_navigation {
+    display: block;
+    margin: 60px 0 0 0; }
+    header div#global_navigation ul.menu {
+      margin: 0 0 40px 0; }
+    header div#global_navigation ul.social {
+      margin: 0 0 40px 0; }
+    header div#global_navigation ul.language {
+      color: #000000; }
+      header div#global_navigation ul.language a {
+        color: #888888;
+        cursor: pointer; }
+      header div#global_navigation ul.language a:hover {
+        color: #bbbbbb; }
+    header div#global_navigation div.search {
+      margin: 60px 0 0 0; }
+      header div#global_navigation div.search div.bt {
+        position: relative;
+        width: 140px;
+        height: 30px;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border: 1px solid #cccccc;
+        margin-bottom: 15px; }
+        header div#global_navigation div.search div.bt input {
+          border: 0;
+          position: relative;
+          top: 7px;
+          left: 9px;
+          width: 99px;
+          height: 17px;
+          font-size: 14px;
+          font-family: "DINNextRoundedLTW01-Lig", "Helvetica Neue", "Helvetica, Arial", "sans-serif"; }
+        header div#global_navigation div.search div.bt input:focus {
+          outline: none; }
+        header div#global_navigation div.search div.bt a {
+          position: absolute;
+          top: 8px;
+          left: 116px;
+          display: block;
+          width: 15px;
+          height: 15px;
+          cursor: pointer; }
+      header div#global_navigation div.search div.bt.select {
+        border-color: #888888; }
+    header div#global_navigation div.copyright {
+      position: absolute;
+      font-size: 11px;
+      line-height: 22px;
+      top: 720px;
+      color: #333333;
+      padding-bottom: 40px; }
+
+@media (max-width: 1081px) {
+  header {
+    position: static; }
+    header h1 {
+      position: fixed;
+      width: 100%;
+      height: 60px;
+      background-color: #ffffff;
+      z-index: 5000; }
+      header h1 a {
+        position: relative;
+        top: 25px;
+        left: 50%;
+        margin-left: -55px; }
+    header li {
+      text-align: center;
+      font-size: 25px;
+      margin-bottom: 30px; }
+    header div#global_navigation {
+      display: none;
+      position: absolute;
+      top: 100px;
+      width: 100%;
+      height: 100%;
+      background-color: #fff;
+      z-index: 2000;
+      padding-bottom: 40px; }
+      header div#global_navigation ul.menu {
+        margin: 0px 0 0 0; }
+      header div#global_navigation ul.social {
+        margin: 60px 0 0 0; }
+      header div#global_navigation ul.language {
+        margin: 60px 0 0 0; }
+        header div#global_navigation ul.language a {
+          color: #999999; }
+      header div#global_navigation ul.menu {
+        margin: 0px 0 0 0; }
+      header div#global_navigation div.search {
+        text-align: center;
+        margin: 60px 0 0px 0;
+        padding-bottom: 60px; }
+        header div#global_navigation div.search div.bt {
+          margin: 0 auto 15px auto;
+          text-align: left;
+          width: 200px;
+          height: 40px;
+          line-height: 40px; }
+          header div#global_navigation div.search div.bt input {
+            width: 160px;
+            height: 28px;
+            font-size: 20px;
+            top: 1px; }
+          header div#global_navigation div.search div.bt a {
+            left: 174px;
+            top: 3px; }
+      header div#global_navigation div.copyright {
+        display: none;
+        margin-top: 60px;
+        position: static;
+        top: 0;
+        padding-bottom: 0; } }
