@@ -327,6 +327,8 @@ div.project {
     background-color: #eeeeee;
     line-height: 0; }
   div.project div.image {
+       /**ME**/
+        margin-bottom: 10px;
     position: relative; }
     div.project div.image div.loading {
       position: absolute;
@@ -1174,3 +1176,12 @@ section#contents.mailnews div.description {
     padding: 100px 20px 0 20px; } }
 #bt_sand.top {
   left: -40px; }
+
+
+.row-left{
+    float:left;
+}
+ .row-right {
+    float:right;
+}
+*/

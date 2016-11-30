@@ -13,7 +13,7 @@ app.get('/test_adapted.html', function(req, res) {
 
 
 app.get('/', function(req, res) {
-  res.sendFile(path.join(__dirname + '/concept.html'));
+  res.sendFile(path.join(__dirname + '/index.html'));
 });
 
 app.get('/concept.html', function(req, res) {
