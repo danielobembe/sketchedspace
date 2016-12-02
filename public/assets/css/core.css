@@ -68,6 +68,10 @@ abbr,acronym { border: 0;
         url('/assets/fonts/DIN-Medium.woff') format('woff'),
         url('/assets/fonts/DIN-Medium.ttf') format('ttf'),
         url('/assets/fonts/DIN-Medium.otf') format('otf');}
+@font-face {
+    font-family: 'apple-sd-gothic-neo';
+    src: 
+        url('/assets/fonts/AppleSDGothicNeoR00.ttf') format('ttf');}
     /*  END: IMPORTED FONTS */
 
 section {
@@ -1232,21 +1236,44 @@ section#contents.mailnews div.description {
 }
 .exhibition {
 /*    height: 100px;*/
-    height: 10vw;
-    width: 20vw;
+    height: 12vmax;
+    width: 20vmax;
     vertical-align: middle;
     text-align: center;
     line-height: 100px;
     margin: 10px 20px;
 }
-.exhibition-yellow{
-    background-color: #fffd88;
-}.exhibition-pink{
-    background-color: #fd9a9b;
-}.exhibition-blue{
-    background-color: #9dfffe;
-}.exhibition-green{
-    background-color: #9cfd9d;
+.exhibition > div {
+    display: block;
+    max-width: 80%;
+    margin:0 auto;
+/*    background-color:aliceblue;*/
+    height: 80%;
+    position: relative;
+    top: 20%;  
+}
+.exhibition > div > p {
+    display: block;
+    position: relative;
+    max-width: 40%;
+    max-height: 40%;
+    margin: 0 auto; 
+/*    background-color: aquamarine;*/
+/*    margin-bottom: 10%;*/
+}
+.exhibition-yellow{background-color:#fffd88;}
+.exhibition-pink{background-color: #fd9a9b;}
+.exhibition-blue{background-color: #9dfffe;}
+.exhibition-green{background-color: #9cfd9d;}
+
+#landing-content {
+    display: block;
+    max-width: 30%;
+/*    max-height: 30%*/
+    position: relative;
+    margin: 0 auto;
+    top: 30%;
+    background-color: aquamarine;
 }
 
 #subscribe {
@@ -1294,7 +1321,9 @@ section#contents .row .col-sm-10 h1 {
 section#contents .row .col-sm-10 p.eng {
     font-family: 'din-regular', sans-serif;
 }
-
+section#contents .row .col-sm-10 p.kor {
+    font-family: 'apple-sd-gothic-neo', sans-serif;
+}
 section#contents .row .col-sm-10 .project .text > li {
     font-family: 'din-regular', sans-serif;
 }
@@ -1310,3 +1339,9 @@ section#contents .row .col-sm-10 .project .text > li {
     top: 50%;
     width: 100%;
 }
+#project-container {
+    display: block;
+    max-width: 680px;
+    margin-left: 0;
+}
+
