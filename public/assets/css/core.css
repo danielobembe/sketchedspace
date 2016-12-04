@@ -1342,6 +1342,17 @@ section#contents .row .col-sm-10 .project .text > li {
 #project-container {
     display: block;
     max-width: 680px;
+    height: 900px;
     margin-left: 0;
 }
+#index-main {
+    display: block;
+    background-color: red;
+    max-width:80%; /**MEDIA Query Here**/
+    margin: 0 auto;
+    position: relative;
+    top:30%;
+}
+
+
 

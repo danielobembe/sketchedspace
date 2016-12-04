@@ -11,6 +11,9 @@ app.get('/test_adapted.html', function(req, res) {
   res.sendFile(path.join(__dirname + '/test_adapted.html'));
 });
 
+//app.get('/0', function(req, res) {
+//  res.sendFile(path.join(__dirname + '/index_0.html'));
+//});
 
 app.get('/', function(req, res) {
   res.sendFile(path.join(__dirname + '/index.html'));
