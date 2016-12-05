@@ -39,6 +39,6 @@ app.get('/news.html', function(req, res) {
   res.sendFile(path.join(__dirname + '/news.html'));
 });
 
-app.listen(3000, function() {
+app.listen(5000, function() {
   console.log("SketchedSpace: listening on port 3000.")
 })
