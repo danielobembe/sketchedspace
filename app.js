@@ -6,6 +6,7 @@ app.set('port', (process.env.PORT || 5000));
 
 app.use(express.static(path.join(__dirname + '/public')));
 
+/** TEST ROUTES -- BEGIN **/
 app.get('/test.html', function(req, res) {
   res.sendFile(path.join(__dirname + '/test.html'));
 });
@@ -13,9 +14,14 @@ app.get('/test_adapted.html', function(req, res) {
   res.sendFile(path.join(__dirname + '/test_adapted.html'));
 });
 
-//app.get('/0', function(req, res) {
-//  res.sendFile(path.join(__dirname + '/index_0.html'));
-//});
+app.get('/artist_original', function(req, res) {
+  res.sendFile(path.join(__dirname + '/artist_original.html'));
+});
+
+app.get('/artist_vertical', function(req, res) {
+  res.sendFile(path.join(__dirname + '/artist_vertical.html'));
+});
+/** TEST ROUTES -- END **/
 
 app.get('/', function(req, res) {
   res.sendFile(path.join(__dirname + '/index.html'));
