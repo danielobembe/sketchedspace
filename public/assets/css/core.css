@@ -1375,6 +1375,9 @@ section#contents .row .col-sm-10 p.kor {
 section#contents .row .col-sm-10 p#kor-concept {
     margin-top:2.5%;
 }
+section#contents .row .col-sm-10 .project .text > li.title {
+    font-family: 'din-medium', sans-serif;
+}
 section#contents .row .col-sm-10 .project .text > li {
     font-family: 'din-regular', sans-serif;
 }
@@ -1406,12 +1409,25 @@ section#contents .row .col-sm-10 .project .text > li {
     top:30%;
 }
 
+.project-bottom {
+    margin-top: -30px;
+}
+
+.project-right {
+    margin-left: -20px;
+}
+
+
+
 
 /**TEST**/
 
+/*
 #xin-seha {
     margin-top: -14%;
+    margin-top: -16%;
 }
+*/
 
 
 header > h1 > a > span {
