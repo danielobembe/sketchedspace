@@ -193,7 +193,7 @@ header {
 /*    padding-right: 0;*/
      /*ME*/
   z-index: 1000;
-  top: 60px;
+  top: 65px;
   left: 60px;
   line-height: 10px;
   color: #666666; }
@@ -1362,6 +1362,7 @@ header h1 a > span {
 section#contents .row .col-sm-10 h1 {
     font-family: 'din-medium', sans-serif;
     font-size: 28pt;
+    margin-bottom: 53px;
 }
 
 section#contents .row .col-sm-10 p.eng {
