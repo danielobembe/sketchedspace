@@ -21,6 +21,10 @@ app.get('/artist_original', function(req, res) {
 app.get('/artist_vertical', function(req, res) {
   res.sendFile(path.join(__dirname + '/artist_vertical.html'));
 });
+
+app.get('/exhibitions_experiment', function(req, res) {
+  res.sendFile(path.join(__dirname + '/exhibitions_experiment.html'));
+});
 /** TEST ROUTES -- END **/
 
 app.get('/', function(req, res) {

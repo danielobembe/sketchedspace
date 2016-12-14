@@ -1270,10 +1270,9 @@ section#contents.mailnews div.description {
     float:right;
 }
 .exhibition {
-/*    height: 100px;*/
-/*    position: relative;*/
-    height: 12vmax;
-    width: 20vmax;
+/*    height: 12vmax;*/
+/*    width: 20vmax;*/
+    position: relative;
     vertical-align: middle;
     text-align: center;
     line-height: 100px;
@@ -1286,21 +1285,9 @@ section#contents.mailnews div.description {
 /*    background-color:aliceblue;*/
     height: 80%;
     position: relative;
-    top: 20%; 
+    top: 34px; 
     font-family: 'din-bold', sans-serif;
-}
-
-/*
-.exhibition > div > p {
-    display: block;
-    position: relative;
-    max-width: 40%;
-    max-height: 40%;
-    margin: 0 auto; 
-    background-color: aquamarine;
-    margin-bottom: 10%;
-}
-*/
+}    
 .exhibition-yellow{background-color:#fffd88;}
 .exhibition-pink{background-color: #fd9a9b;}
 .exhibition-blue{background-color: #9dfffe;}
@@ -1399,6 +1386,7 @@ section#contents .row .col-sm-10 .project .text > li {
     max-width: 680px;
     height: 900px;
     margin-left: 0;
+/*    top: 50%;*/
 /*    background-color: aliceblue;*/
 }
 #index-main {
@@ -1440,3 +1428,37 @@ header > h1 > a > span {
     vertical-align: top;
 }
 */
+
+
+
+
+
+
+#container {
+    display: inline-block;
+    position: relative;
+    width: 50%;
+}
+
+#dummy {
+    margin-top: 75%; /* 4:3 aspect ratio */
+/*    background-color: red;*/
+}
+
+#element {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: silver;  
+}
+
+
+
+div.row > div.aspect_container {    
+    width:20%;
+    padding-bottom: 8%;
+}
+
+
