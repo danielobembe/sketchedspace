@@ -1425,11 +1425,9 @@ header > h1 > a > span {
     vertical-align: top;
 }
 
-/*
 #main-title {
-    vertical-align: top;
+  margin-top: 18.5px;
 }
-*/
 
 
 
