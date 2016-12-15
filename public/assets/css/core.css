@@ -185,9 +185,9 @@ div.page_title {
       background-image: url("../images/bt_fb.jpg"); }
 
 header {
-  position: fixed;
+  position: absolute;
     /*ME*/
-    overflow-y: scroll;
+/*    overflow-y: scroll;*/
     height: 90%;
     width: 20%;
 /*    padding-right: 0;*/
@@ -251,6 +251,7 @@ header::-webkit-scrollbar-thumb {
         position:absolute;
 /*        top: 470px;*/
         top:600px;
+/*        top: 510px;*/
       margin: 60px 0 0 0; }
       header div#global_navigation div.search div.bt {
         position: relative;
@@ -306,6 +307,7 @@ header div#global_navigation div.search div.bt a i {
       line-height: 22px;
 /*      top: 520px;*/
         top:710px;
+/*        top: 620px;*/
       color: #333333;
       padding-bottom: 40px; }
     /*ME*/
@@ -1292,7 +1294,7 @@ section#contents.mailnews div.description {
 .exhibition-pink{background-color: #fd9a9b;}
 .exhibition-blue{background-color: #9dfffe;}
 .exhibition-green{background-color: #9cfd9d;}
-.exhibition-blank{margin-right:-10px;}
+/*.exhibition-blank{margin-right:-10px;}*/
 /*Note: .exhbition-blank margin-right should be half of .exhbition margin-left*/
 
 
