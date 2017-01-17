@@ -51,6 +51,23 @@ app.get('/news.html', function(req, res) {
   res.sendFile(path.join(__dirname + '/news.html'));
 });
 
+// Artist Links
+app.get('/alisi_telengut.html', function(req, res) {
+  res.sendFile(path.join(__dirname + '/alisi_telengut.html'));
+});
+
+app.get('/dongwhan_wang.html', function(req, res) {
+  res.sendFile(path.join(__dirname + '/dongwhan_wang.html'));
+});
+
+app.get('/jiyen_lee.html', function(req, res) {
+  res.sendFile(path.join(__dirname + '/jiyen_lee.html'));
+});
+
+app.get('/yelin_kim.html', function(req, res) {
+  res.sendFile(path.join(__dirname + '/yelin_kim.html'));
+});
+
 app.listen(app.get('port'), function() {
   console.log('Node app is running on port', app.get('port'));
 });
