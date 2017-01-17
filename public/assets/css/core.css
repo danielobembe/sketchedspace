@@ -1428,6 +1428,18 @@ section#contents .row .col-sm-10 .project .text > li {
 	cursor:pointer;
 }
 
+.artist-title {
+	text-transform: uppercase;
+	white-space: nowrap;
+	font-family: 'din-bold', sans-serif;
+	letter-spacing: 0.3px; }
+.artist-day_location {
+	text-transform: uppercase;
+	white-space: nowrap;
+	color: #666666;
+	font-family: 'din-regular', sans-serif;
+	padding-bottom: 15px;
+ }
 /**TEST**/
 
 /*
