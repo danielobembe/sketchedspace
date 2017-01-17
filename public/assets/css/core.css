@@ -56,28 +56,28 @@ abbr,acronym { border: 0;
 
 @font-face {
     font-family: 'din-regular';
-    src: 
+    src:
         url('/assets/fonts/DIN-Regular.woff2') format('woff2'),
         url('/assets/fonts/DIN-Regular.woff') format('woff'),
         url('/assets/fonts/DIN-Regular.ttf') format('ttf'),
         url('/assets/fonts/DIN-Regular.otf') format('otf');}
 @font-face {
     font-family: 'din-medium';
-    src: 
+    src:
         url('/assets/fonts/DIN-Medium.woff2') format('woff2'),
         url('/assets/fonts/DIN-Medium.woff') format('woff'),
         url('/assets/fonts/DIN-Medium.ttf') format('ttf'),
         url('/assets/fonts/DIN-Medium.otf') format('otf');}
 @font-face {
     font-family: 'din-bold';
-    src: 
+    src:
         url('/assets/fonts/DIN-Bold.woff2') format('woff2'),
         url('/assets/fonts/DIN-Bold.woff') format('woff'),
         url('/assets/fonts/DIN-Bold.ttf') format('ttf'),
         url('/assets/fonts/DIN-Bold.otf') format('otf');}
 @font-face {
     font-family: 'apple-sd-gothic-neo';
-    src: 
+    src:
         url('/assets/fonts/AppleSDGothicNeoR00.ttf') format('ttf');}
     /*  END: IMPORTED FONTS */
 
@@ -198,7 +198,7 @@ header {
   line-height: 10px;
   color: #666666; }
   header a:hover {
-    color: #bbbbbb; 
+    color: #bbbbbb;
       /*ME:: BEGIN*/
       text-decoration: none;
 }
@@ -282,10 +282,10 @@ header::-webkit-scrollbar-thumb {
           display: block;
           width: 15px;
           height: 15px;
-          cursor: pointer; } 
+          cursor: pointer; }
 /*ME*/
 header div#global_navigation div.search div.bt a i {
-    text-decoration: none; 
+    text-decoration: none;
     color: grey;
 }
 /*ME*/
@@ -1233,7 +1233,7 @@ section#contents.mailnews div.description {
   top: 0px;
   left: 0px;
   z-index: 10000;
-  -webkit-tap-highlight-color: transparent; 
+  -webkit-tap-highlight-color: transparent;
 }
   #bt_sand span {
     width: 30px;
@@ -1287,9 +1287,9 @@ section#contents.mailnews div.description {
 /*    background-color:aliceblue;*/
     height: 80%;
     position: relative;
-    top: 34px; 
+    top: 34px;
     font-family: 'din-bold', sans-serif;
-}    
+}
 .exhibition-yellow{background-color:#fffd88;}
 .exhibition-pink{background-color: #fd9a9b;}
 .exhibition-blue{background-color: #9dfffe;}
@@ -1331,7 +1331,7 @@ section#contents.mailnews div.description {
  -webkit-appearance: none;
   border: none;
   padding-top: 8px;
-  border-bottom: 2px solid #000; 
+  border-bottom: 2px solid #000;
 }
 #contact-details {
 /*    padding-top:10%;*/
@@ -1408,7 +1408,15 @@ section#contents .row .col-sm-10 .project .text > li {
     margin-left: -20px;
 }
 
+#yelin_kim,#dongwhan_wang {
+	width: 350px;
+	height: 200px;
+}
 
+#alisi_telengut,#jiyen_lee{
+	height: 300px;
+	width: 250px;
+}
 
 
 /**TEST**/
@@ -1451,14 +1459,12 @@ header > h1 > a > span {
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: silver;  
+    background-color: silver;
 }
 
 
 
-div.row > div.aspect_container {    
+div.row > div.aspect_container {
     width:20%;
     padding-bottom: 8%;
 }
-
-
